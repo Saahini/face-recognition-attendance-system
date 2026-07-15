@@ -1,35 +1,38 @@
 # 🎓 Face Recognition Attendance Monitoring System
 
-A Python-based desktop application that automates student attendance using real-time face recognition. The system captures student facial data, trains a face recognition model, identifies registered students through a webcam, and automatically records attendance with timestamps.
+A Python-based desktop application that automates student attendance using **real-time face recognition**. The system captures facial data, trains an **LBPH Face Recognizer**, identifies registered students through a webcam, and automatically records attendance with timestamps in CSV format.
 
 ---
 
-## 📌 Project Overview
+## 📖 Overview
 
-Manual attendance systems are time-consuming and prone to human error. This project utilizes **Computer Vision** and **Machine Learning** techniques to recognize registered students in real time and automatically generate attendance records, making the attendance process faster, more accurate, and efficient.
+Manual attendance systems are time-consuming, error-prone, and inefficient. This project uses **Computer Vision** and **Machine Learning** to automate attendance by recognizing registered students in real time.
+
+The application provides a user-friendly **Tkinter-based graphical interface** for student registration, model training, and attendance management.
 
 ---
 
 ## ✨ Features
 
-- Real-time face detection and recognition
-- User-friendly Tkinter graphical interface
-- Student registration with image capture
-- Face dataset generation and model training
-- Automatic attendance recording with date and time
-- Attendance stored in CSV format
-- Password-protected student registration
-- Student details management
-- Lightweight desktop application
+- ✅ Real-time face detection using OpenCV
+- ✅ Face recognition using the LBPH algorithm
+- ✅ Student registration with image capture
+- ✅ Automatic face dataset generation
+- ✅ Face recognition model training
+- ✅ Attendance recording with date and time
+- ✅ Attendance stored in CSV format
+- ✅ Password-protected student registration
+- ✅ Student details management
+- ✅ Simple and intuitive desktop interface
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
-|----------|--------------|
+|-----------|--------------|
 | Programming Language | Python |
-| GUI | Tkinter |
+| GUI Framework | Tkinter |
 | Computer Vision | OpenCV |
 | Face Recognition | LBPH Face Recognizer |
 | Libraries | NumPy, Pandas, Pillow |
@@ -70,7 +73,7 @@ git clone https://github.com/Saahini/face-recognition-attendance-system.git
 cd face-recognition-attendance-system
 ```
 
-### 3. Install dependencies
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -84,39 +87,64 @@ python main.py
 
 ---
 
-## 🚀 How to Use
+## 🚀 Usage
 
 1. Launch the application.
-2. Register a new student.
-3. Capture facial images.
+2. Register a new student by entering the required details.
+3. Capture facial images for the student.
 4. Train the face recognition model.
 5. Start the attendance system.
 6. The application automatically recognizes registered students.
-7. Attendance is recorded with the current date and time.
+7. Attendance is saved with the current date and time inside the **Attendance/** folder.
 
 ---
 
-## 📊 Key Functionalities
+## 🔄 System Workflow
 
-- Face Detection using OpenCV Haar Cascade
+```text
+Student Registration
+        │
+        ▼
+Capture Face Images
+        │
+        ▼
+Train Face Recognition Model
+        │
+        ▼
+Real-Time Face Detection
+        │
+        ▼
+Recognize Student
+        │
+        ▼
+Attendance Recorded in CSV
+```
+
+---
+
+## 📊 Core Functionalities
+
+- Face Detection using Haar Cascade Classifier
 - Face Recognition using LBPH Algorithm
 - Student Registration Module
-- Model Training Module
-- Attendance Recording Module
+- Face Dataset Generation
+- Model Training
+- Automated Attendance Recording
 - CSV-based Data Management
-- Password Protection for Registration
+- Password Authentication
 
 ---
 
 ## 📈 Future Enhancements
 
-- Deep Learning-based face recognition
-- MySQL or MongoDB database integration
-- Flask/Django web application
-- Cloud-based attendance synchronization
-- Email attendance reports
-- Face mask detection support
-- Student analytics dashboard
+- Deep Learning-based Face Recognition (FaceNet / ArcFace)
+- MySQL or PostgreSQL Database Integration
+- Flask or Django Web Application
+- Cloud-Based Attendance Synchronization
+- Email Attendance Reports
+- Face Mask Detection
+- Student Analytics Dashboard
+- Mobile Application Support
 
 ---
 
@@ -128,10 +156,16 @@ This project strengthened practical knowledge in:
 - Computer Vision
 - OpenCV
 - Face Recognition
-- GUI Development with Tkinter
 - Image Processing
+- GUI Development with Tkinter
 - CSV File Handling
-- Attendance Automation
+- Machine Learning Fundamentals
+
+---
+
+## 📸 Screenshots
+
+> Screenshots will be added soon.
 
 ---
 
@@ -145,10 +179,16 @@ GitHub: https://github.com/Saahini
 
 ---
 
+## 🤝 Acknowledgements
+
+This project was developed for educational and portfolio purposes using Python, OpenCV, and Tkinter.
+
+---
+
 ## 📄 License
 
 This project is licensed under the **MIT License**.
 
 ---
 
-⭐ If you found this project useful, consider giving it a **Star** on GitHub.
+⭐ **If you found this project useful, consider giving it a Star on GitHub!**
