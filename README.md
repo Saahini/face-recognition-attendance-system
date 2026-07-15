@@ -1,5 +1,10 @@
 # 🎓 Face Recognition Attendance Monitoring System
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A Python-based desktop application that automates student attendance using **real-time face recognition**. The system captures facial data, trains an **LBPH Face Recognizer**, identifies registered students through a webcam, and automatically records attendance with timestamps in CSV format.
 
 ---
@@ -56,6 +61,11 @@ face-recognition-attendance-system/
 ├── LICENSE
 └── .gitignore
 ```
+## 📋 Requirements
+
+- Python 3.9 or above
+- Webcam
+- Windows/Linux
 
 ---
 
@@ -175,13 +185,13 @@ This project strengthened practical knowledge in:
 
 B.Tech – Computer Science & Engineering
 
-GitHub: https://github.com/Saahini
+GitHub: **https://github.com/Saahini**
 
 ---
 
 ## 🤝 Acknowledgements
 
-This project was developed for educational and portfolio purposes using Python, OpenCV, and Tkinter.
+This project was developed as an academic and portfolio project to demonstrate practical applications of Computer Vision, Face Recognition, and Python GUI development.
 
 ---
 
