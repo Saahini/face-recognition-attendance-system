@@ -1,0 +1,5 @@
+TrainingImage/
+Attendance/
+*.csv
+__pycache__/
+*.pyc
