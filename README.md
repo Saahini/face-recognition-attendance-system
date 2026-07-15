@@ -175,7 +175,27 @@ This project strengthened practical knowledge in:
 
 ## 📸 Screenshots
 
-> Screenshots will be added soon.
+### 🏠 Home Screen
+
+The main dashboard of the Face Recognition Attendance Monitoring System with student registration and attendance management modules.
+
+![Home Screen](screenshots/home.png)
+
+---
+
+### 👤 Student Registration
+
+Register a new student by entering the ID and name, then capture face images and save the profile.
+
+![Student Registration](screenshots/register.png)
+
+---
+
+### ✅ Attendance Recording
+
+Successfully recognized students are automatically marked present with the current date and time.
+
+![Attendance Recording](screenshots/attendance.png)
 
 ---
 
